@@ -1,0 +1,2 @@
+As it will collect 15 characters after tel, so this formula will collect only number from the text.
+=REGEXREPLACE(B2, "[^\d]", "")
